@@ -1,0 +1,36 @@
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.header__inner {
+  @include flex-center;
+  padding: 28px 0;
+}
+
+.header__logo {
+  margin-right: 50px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
+.header-nav__list {
+  @include flex-center;
+}
+
+.header-nav__item {
+  font-size: 14px;
+
+  &:not(:last-child) {
+    margin-right: 42px;
+  }
+}
+
+.activity {
+  @include flex-center;
+}
+
+.activity__item:not(:last-child) {
+  margin-right: 10px;
+}
