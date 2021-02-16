@@ -1,0 +1,29 @@
+.hero {
+  height: 600px;
+
+  &-container {
+    @include content-center;
+    background: url(/assets/images/hero/bg.svg) no-repeat;
+    background-position: right center;
+    background-size: 50%;
+  }
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  max-width: 550px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero__desc {
+  margin-bottom: 30px;
+  max-width: 360px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero__activity {
+  margin-bottom: 15px;
+}

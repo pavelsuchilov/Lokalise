@@ -1,17 +1,29 @@
 .btn {
-  padding: 21px 28px;
+  padding: 17px 28px;
   font-size: 16px;
   font-weight: 500;
   color: $white-bg;
   background-color: $main;
+  transition: .1s;
 
-  &--header {
-    padding: 13px 22px;
+  &:hover {
+    background: darken($main, 10%);
   }
 
   &--border {
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: $text;
     background-color: inherit;
     border: 1px solid $text;
+
+    &:hover {
+      color: $white-bg;
+      background-color: $text;
+    }
+  }
+
+  &--header {
+    padding: 13px 22px;
   }
 }

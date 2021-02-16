@@ -358,17 +358,34 @@ img {
 
 /* ELEMENTS */
 .btn {
-  padding: 21px 28px;
+  padding: 17px 28px;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  background-color: #ff6336; }
-  .btn--header {
-    padding: 13px 22px; }
+  background-color: #ff6336;
+  transition: .1s; }
+  .btn:hover {
+    background: #ff3b03; }
   .btn--border {
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #000;
     background-color: inherit;
     border: 1px solid #000; }
+    .btn--border:hover {
+      color: #fff;
+      background-color: #000; }
+  .btn--header {
+    padding: 13px 22px; }
+
+.section-title {
+  display: block;
+  margin: 0 auto;
+  max-width: 720px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center; }
 
 /* BLOCKS */
 .container {
@@ -395,9 +412,13 @@ img {
   align-items: center; }
 
 .header-nav__item {
+  padding-right: 1px;
   font-size: 14px; }
   .header-nav__item:not(:last-child) {
     margin-right: 42px; }
+  .header-nav__item:hover {
+    padding-right: .5px;
+    font-weight: 500; }
 
 .activity {
   display: flex;
@@ -405,3 +426,42 @@ img {
 
 .activity__item:not(:last-child) {
   margin-right: 10px; }
+
+.hero {
+  height: 600px; }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background: url(/assets/images/hero/bg.svg) no-repeat;
+    background-position: right center;
+    background-size: 50%; }
+
+.hero__title {
+  margin-bottom: 30px;
+  max-width: 550px;
+  font-size: 60px;
+  font-weight: 700; }
+
+.hero__desc {
+  margin-bottom: 30px;
+  max-width: 360px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.hero__activity {
+  margin-bottom: 15px; }
+
+.companies {
+  padding: 108px 0;
+  background-color: #ff9C7d; }
+
+.companies__title {
+  margin-bottom: 70px; }
+
+.companies__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }

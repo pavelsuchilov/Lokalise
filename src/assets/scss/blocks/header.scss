@@ -20,10 +20,16 @@
 }
 
 .header-nav__item {
+  padding-right: 1px;
   font-size: 14px;
 
   &:not(:last-child) {
     margin-right: 42px;
+  }
+
+  &:hover {
+    padding-right: .5px;
+    font-weight: 500
   }
 }
 

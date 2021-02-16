@@ -1,0 +1,13 @@
+.companies {
+  padding: 108px 0;
+  background-color: #ff9C7d;
+}
+
+.companies__title {
+  margin-bottom: 70px;
+}
+
+.companies__logo {
+  @include flex-center;
+  justify-content: space-between;
+}
