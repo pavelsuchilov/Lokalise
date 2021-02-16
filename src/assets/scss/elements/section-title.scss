@@ -1,9 +1,11 @@
 .section-title {
   display: block;
-  margin: 0 auto;
-  max-width: 720px;
   font-size: 45px;
   font-weight: 500;
   line-height: 55px;
   text-align: center;
+
+  &--left {
+    text-align: left;
+  }
 }

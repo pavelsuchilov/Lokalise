@@ -1,10 +1,12 @@
 .companies {
-  padding: 108px 0;
+  padding: $section-padding 0;
   background-color: #ff9C7d;
 }
 
 .companies__title {
+  margin: 0 auto;
   margin-bottom: 70px;
+  max-width: 720px;
 }
 
 .companies__logo {

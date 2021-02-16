@@ -1,0 +1,35 @@
+.scopes-container {
+  padding: 0 100px;
+}
+
+.scopes-card {
+  @include flex-center;
+  justify-content: space-between;
+  padding: $section-padding 0;
+
+  &:not(:last-child) {
+    margin-bottom: 200px;
+  }
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.scopes-card__info {
+  max-width: 450px;
+}
+
+.scopes-card__title {
+  margin-bottom: 25px;
+}
+
+.scopes-card__desc {
+  margin-bottom: 25px;
+}
+
+.scopes-card__img {
+  width: 500px;
+  height: 500px;
+  background-color: #fcf6df;
+}
